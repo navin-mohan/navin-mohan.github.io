@@ -2,7 +2,6 @@
 title: "Hello World"
 excerpt: "A sample post"
 date: 2018-12-06
-published: true
 ---
 
 # Hello, World
