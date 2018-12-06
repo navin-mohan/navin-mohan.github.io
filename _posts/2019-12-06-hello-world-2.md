@@ -1,7 +1,7 @@
 ---
 title: "Hello World Again"
 excerpt: "A sample post"
-date: 2019-12-06
+date: 2018-12-04
 ---
 
 # Hello, World
