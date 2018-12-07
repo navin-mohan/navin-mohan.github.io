@@ -9,7 +9,7 @@ toc: true
 
 Welcome to my blog!
 
-Have some $\pi$
+Have some $$\pi$$
 
 ```python
 print("Hi There!")
