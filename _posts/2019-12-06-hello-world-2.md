@@ -5,7 +5,12 @@ date: 2018-12-04
 toc: true
 ---
 
-# Hello, World
+# Hello!
 
-Hi everyone
-This is just another sample post
+Welcome to my blog!
+
+Have some $\pi$
+
+```python
+print("Hi There!")
+```
