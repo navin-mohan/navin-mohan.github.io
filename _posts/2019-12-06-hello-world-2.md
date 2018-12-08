@@ -7,7 +7,7 @@ toc: true
 
 # Hello!
 
-Welcome to my blog!
+Welcome to my blog! :smile:
 
 Have some $$\pi$$
 
