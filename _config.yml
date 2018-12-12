@@ -1,4 +1,4 @@
-remote_theme: "mmistakes/minimal-mistakes@4.14.1"
+remote_theme: "nvnmo/minimal-mistakes"
 
 # Site Settings
 locale                   : "en-US"
