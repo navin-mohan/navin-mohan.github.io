@@ -1,5 +1,6 @@
 ---
 title: "Dealing with endianness in C++"
+excerpt: "A sample post"
 date: 2018-12-31
 toc: false
 mathjax: false
@@ -17,14 +18,14 @@ Endianness is basically the sequential order in which bytes are organized in a w
 
 However, the processor often works with multiple bytes of data depending on its word length. For instance, a 64-bit CPU can process 8-byte data words. Hence, the ordering becomes important as any inconsistency will result in unexpected results.
 
-So you might be wondering why can't we just stick to the order in which most of us write a numeric value i.e. starting with the most significant byte(MSB) and ending with the least significant byte (LSB) also known as "Big-Endian" ordering. In fact, that is perfectly fine but as with most things in the computer industry some vendors choose to go the other way. In those systems, the word starts with the LSB and ends with the MSB.
+So you might be wondering why can't we just stick to the order in which most of us write a numeric value i.e. starting with the most significant byte(MSB) and ending with the least significant byte (LSB) also known as "Big-Endian" ordering. In fact, that is perfectly fine but as with most things in the computer industry, some vendors choose to go the other way. In those systems, the word starts with the LSB and ends with the MSB.
 
-![Example](../static/img/endian.png)
+![Example](/static/img/endian.png)
 
 ### What determines the endianness of a system?
 As we have seen earlier the memory(main memory) doesn't care in what order the words are stored since all the bytes are individually addressed. Therefore it has got nothing to do with the endianness of the system.
 
-The CPU on the otherhand is designed in such a way that it expects the data words to be in a specific order. Hence, it determines the endianness in use.
+The CPU, on the other hand, is designed in such a way that it expects the data words to be in a specific order. Hence, it determines the endianness in use.
 
 The popular **x86** architecture uses little-endian byte ordering.
 
@@ -50,7 +51,7 @@ int main(){
 ```
 
 ## Why should you care about endianness?
-We are not writing assembly anymore then why are we concerned about such a low level detail. Well, the compiler takes care of most of the heavy-lifting but there are certain cases where the developer's attention is required. The following are the two common cases.
+We are not writing assembly anymore then why are we concerned about such a low-level detail. Well, the compiler takes care of most of the heavy-lifting but there are certain cases where the developer's attention is required. The following are the two common cases.
 
 ### Handling binary files
 Binary files have a standard software representation which may or may not match with the endianness of your system. Therefore it needs to be handled accordingly by the developer. 
@@ -72,9 +73,9 @@ One of the easiest ways to convert between byte orderings is to use the socket p
 
 The network byte order is always big-endian by convention.
 
-If your system is little-endian (host byte order) the above functions will perform the necessary byte swapping otherwise they are just return the same value.
+If your system is little-endian (host byte order) the above functions will perform the necessary byte swapping otherwise they just return the same value.
 
-Similarly [`htonl`](https://linux.die.net/man/3/htonl) and [`ntohl`](https://linux.die.net/man/3/ntohl) handles a 32-bit word.
+Similarly, [`htonl`](https://linux.die.net/man/3/htonl) and [`ntohl`](https://linux.die.net/man/3/ntohl) handles a 32-bit word.
 
 ```cpp
 #include <cstdio>
@@ -82,7 +83,7 @@ Similarly [`htonl`](https://linux.die.net/man/3/htonl) and [`ntohl`](https://lin
 #include <cstdint> // uint32_t and uint8_t
 
 /*
-Expected output on a little-endian system:
+The expected output on a little-endian system:
 
 00EEFFAA
 AAFFEE00
@@ -210,7 +211,7 @@ We will also use some operator overloading to make things simpler.
 using namespace std;
 
 /*
-Expected output on a little endian system:
+The expected output on a little-endian system:
 
 Actual memory representation:
 DDCCBBAA
@@ -301,9 +302,6 @@ int main(){
 }
 ```
 
-You could use it with pretty much any built-in or user defined datatype. And by no means this is the best possible implementation out there. This is just something I came up with when I had a requirement. If you know a better way of implementing it, feel free to let me know in the comments. 
+You could use it with pretty much any built-in or user-defined datatype. And by no means, this is the best possible implementation out there. This is just something I came up with when I had a requirement. If you know a better way of implementing it, feel free to let me know in the comments. 
 
-## References
-* https://stackoverflow.com/questions/2724449/difference-between-word-addressable-and-byte-addressable
-* https://superuser.com/questions/308274/what-determines-endianness
-* https://stackoverflow.com/questions/40968770/most-common-way-to-deal-with-endianness-and-files-c
+Thank you for reading! :smile:
