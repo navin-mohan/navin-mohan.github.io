@@ -1,6 +1,5 @@
 ---
 title: "Dealing with endianness in C++"
-excerpt: "A sample post"
 date: 2018-12-31
 toc: false
 mathjax: false
