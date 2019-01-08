@@ -197,7 +197,7 @@ int main(){
 
 ```
 
-I think the example program is pretty much self-explanatory and `Boost.Endian` comes with a lot of bells and whistles. Therefore covering all of them in a single blog post is impossible. You find the official documentation [here](https://www.boost.org/doc/libs/1_61_0/libs/endian/doc/index.html) for more details.
+I think the example program is pretty much self-explanatory and `Boost.Endian` comes with a lot of bells and whistles. Therefore covering all of them in a single blog post is impossible. You can find the official documentation [here](https://www.boost.org/doc/libs/1_61_0/libs/endian/doc/index.html) for more details.
 
 ### Build your own container
 If you need even more control, you could just use a standard C++ `union` to roll out your own.
