@@ -10,6 +10,8 @@ If you have ever dealt with binary data, then the chances are that you must have
 
 Let's take a deeper dive and see how you can keep your bytes in order.
 
+If you're here for the code, then skip ahead to the [methods](#methods-for-handling-endianness-in-c).
+
 ## What is endianness?
 Endianness is basically the sequential order in which bytes are organized in a word. Generally, the computer memory is byte addressable therefore it doesn't care how the constituent bytes are organized.
 
@@ -30,7 +32,8 @@ The popular **x86** architecture uses little-endian byte ordering.
 
 ## Checking the endianness of your system
 It is pretty easy to check the endianness of a system. Just see where the MSB of a value is in memory.
-```CPP
+
+```cpp
 #include <iostream>
 #include <cstdint> // uint16_t and uint8_t
 
