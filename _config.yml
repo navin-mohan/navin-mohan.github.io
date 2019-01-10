@@ -111,7 +111,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/nvnmo"
     - label: "Hackerrank"
-      icon: "fab fa-hackerrank"
+      icon: "fab fa-hackerrank hackerrank-color"
       url: "https://hackerrank.com/nvnmo"
 
 # Site Footer
