@@ -60,7 +60,7 @@ google:
   instant_search         : # false (default), true
 # SEO Related
 google_site_verification :
-bing_site_verification   :
+bing_site_verification   : F80648B8F2160760CCC0084F5E8B463F
 yandex_site_verification :
 naver_site_verification  :
 
