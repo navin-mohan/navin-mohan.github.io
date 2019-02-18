@@ -4,6 +4,7 @@ date: 2018-12-31
 toc: false
 mathjax: false
 classes: wide
+permalink: /blog/2018/12/31/dealing-with-endianess-cpp.html
 ---
 
 If you have ever dealt with binary data, then the chances are that you must have come across the term endianness at least once.
