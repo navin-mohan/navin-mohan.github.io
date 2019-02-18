@@ -93,7 +93,11 @@ author:
   avatar           : "https://avatars3.githubusercontent.com/u/11776036?s=460&v=4" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Computer Science Student, C++ and Python Developer, Interested in Computer Networks and Systems Programming."
   location         : "Kochi, IN"
-  email            :
+  job              : "Computer Science Student"
+  landingbio       : "C++ and Python Developer, Interested in Computer Networks and Systems Programming."
+  github           : "https://github.com/nvnmo
+  twitter          : "https://twitter.com/nvnmo
+  linkedin         : "https://linkedin.com/in/nvnmo
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
