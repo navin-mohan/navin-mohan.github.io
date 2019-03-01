@@ -229,6 +229,13 @@ whitelist:
   - jemoji
   - jekyll-include-cache
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
+
 
 # Archives
 #  Type
