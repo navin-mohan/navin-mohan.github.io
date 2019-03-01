@@ -229,11 +229,6 @@ whitelist:
   - jemoji
   - jekyll-include-cache
 
-# Collections
-collections:
-  projects:
-    output: true
-    permalink: /:collection/:path/
 
 
 
@@ -273,6 +268,11 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -300,6 +300,7 @@ defaults:
       comments: false
       share: false
       related: false
+      
   # _projects
   - scope:
       path: ""
