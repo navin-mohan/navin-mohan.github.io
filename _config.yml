@@ -54,6 +54,25 @@ animated:             true
 show_related_posts:   true
 show_social_icons:    true
 
+# Social icons
+github_username: nvnmo
+reddit_username:
+bitbucket_username:
+stackoverflow_id: nvnmo
+twitter_username: nvnmo
+skype_username:
+steam_nickname: nvnmo
+google_plus_id:
+linkedin_username: nvnmo
+angellist_username:
+medium_id: nvnmo
+bitcoin_url:
+paypal_url:
+flattr_button:
+telegram_username: nvnm
+vk_id:
+
+
 # Header nav
 header_pages:
   - title: About
