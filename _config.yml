@@ -50,6 +50,9 @@ share_reddit: true
 share_stumbleupon: false
 share_hackernews: false
 
+animated:             true
+show_related_posts:   true
+
 # Header nav
 header_pages:
   - title: About
