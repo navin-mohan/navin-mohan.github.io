@@ -3,6 +3,11 @@ remote_theme: "nvnmo/lumen"
 # Site Settings
 locale                   : "en-US"
 title                    : "Navin Mohan"
+
+
+
+
+
 title_separator          : "-"
 name                     : "Navin Mohan"
 description              : "Portfolio and blog"
