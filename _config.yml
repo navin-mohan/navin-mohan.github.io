@@ -23,9 +23,13 @@ author:
   name                   : "Navin Mohan"
   avatar                 : "https://avatars3.githubusercontent.com/u/11776036?s=460&v=4"
   bio                    : "Computer Science Student, C++ and Python Developer, Interested in Computer Networks and Systems Programming."
+
 plugins:
+  - jekyll-feed
   - jekyll-paginate
   - jemoji
+  - jekyll-seo-tag
+  - jekyll-remote-theme
 
 exclude:
   - Gemfile
