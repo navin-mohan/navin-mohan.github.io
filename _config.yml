@@ -89,5 +89,5 @@ defaults:
       path: ""
       type: projects
     values:
-      layout: portfolio
+      layout: page
       basetype: blog
