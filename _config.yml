@@ -6,7 +6,7 @@ title                    : "Navin Mohan"
 title_separator          : "-"
 name                     : "Navin Mohan"
 description              : "Portfolio and blog"
-url                      : https://nvnmo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://nvnmo.github.io 
 baseurl                  : # the subpath of your site, e.g. "/blog"
 
 words_per_minute         : 200

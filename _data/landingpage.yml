@@ -3,8 +3,10 @@ job                    : "Computer Science Student"
 social:
   - label: "github"
     url: "https://github.com/nvnmo"
+  
   - label: "twitter"
     url: "https://twitter.com/nvnmo"
+  
   - label: "linkedin"
     url: "https://linkedin.com/in/nvnmo"
 
