@@ -1,10 +1,15 @@
 ---
-title: "Pychromepdf"
+title: "Pychromepdf - PDF Generator"
 excerpt: "Python package that lets you easily create PDF documents from HTML content rendered using Chrome or Chromium"
-
-sidebar:
-	- title: "Language"
-	  text: "Python 3"
+date: 2019-02-01
+links:
+	- icon: "fa fa-github"
+	  url: "https://github.com/nvnmo/pychromepdf"
+	- icon: "fa fa-link"
+	  url: "https://pypi.org/project/pychromepdf"
+stack:
+	- "Python 3"
+	- "Chromium"
 
 ---
 
