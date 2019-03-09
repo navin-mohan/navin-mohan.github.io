@@ -1,5 +1,7 @@
-bio                    : "C++ and Python Developer, Interested in Computer Networks and Systems Programming."
-job                    : "Computer Science Student"
+bio : "C++ and Python Developer, Interested in Computer Networks and Systems Programming."
+job : "Computer Science Student"
+
+
 social:
   - label: "github"
     url: "https://github.com/nvnmo"
