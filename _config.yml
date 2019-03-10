@@ -86,6 +86,8 @@ header_pages:
     url: /about
   - title: Blog
     url: /blog
+  - title: Resources
+    url: /resources
   - title: Portfolio
     url: /portfolio
 
