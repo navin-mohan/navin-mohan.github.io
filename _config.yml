@@ -54,6 +54,13 @@ animated:             true
 show_related_posts:   true
 show_social_icons:    true
 
+
+enable_mathjax: true
+enable_anchorjs: true
+
+disqus_shortname: nvnmo-blog
+google_analytics: "UA-77683228-2"
+
 # Social icons
 github_username: nvnmo
 reddit_username:
