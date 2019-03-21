@@ -30,6 +30,7 @@ plugins:
   - jemoji
   - jekyll-seo-tag
   - jekyll-remote-theme
+  - jekyll-sitemap
 
 exclude:
   - Gemfile
