@@ -20,7 +20,9 @@ But that is not why I was interested. Before getting in to that let's take a bri
 
 If you're anything like me and have taken the effort to go through the horrors of functional programming, then you must know these functions(map,reduce,filter) from another context.
 
-![Monads](/static/img/monad-meme.jpg)
+<p align="center">
+    <img src="/static/img/monad-meme.jpg" alt="Monads"/>
+</p>
 
 They are called higher order functions, which is just a fancy name for functions that take functions as arguments(or returns one). 
 
