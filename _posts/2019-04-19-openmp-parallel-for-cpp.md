@@ -20,7 +20,7 @@ But that is not why I was interested. Before getting in to that let's take a bri
 
 If you're anything like me and have taken the effort to go through the horrors of functional programming, then you must know these functions(map,reduce,filter) from another context.
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/n8WPHLi" data-context="false"><a href="//imgur.com/n8WPHLi"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![Monads](/static/img/monad-meme.jpg)
 
 They are called higher order functions, which is just a fancy name for functions that take functions as arguments(or returns one). 
 
