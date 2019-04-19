@@ -1,10 +1,10 @@
 ---
 title: "Playing around with OpenMP and C++ - Parallelizing for-loops"
 date: 2019-04-19
-excerpt: "An article on my journey optimizing a toy C++ library using OpenMP"
+excerpt: "Optimizing a toy C++ library using OpenMP"
 ---
 
-Yesterday, I came across [an interesting repository](https://github.com/georgeshanti/cpp-transformations) on my GitHub feed. It was a simple and functional header-only C++ library that lets you apply transformations like map, reduce and filter to standard C++ containers.
+Yesterday, I came across [an interesting repository](https://github.com/georgeshanti/cpp-transformations) on my GitHub feed. It is a simple and functional header-only C++ library that lets you apply transformations like map, reduce and filter to standard C++ containers.
 
 Well, yes I'm aware of the fact that it is possible to perform all three tranformations using just STL.
 
