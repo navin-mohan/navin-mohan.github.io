@@ -249,6 +249,6 @@ Filter: 55ms
 
 The tests were performed on my dual core machine with a vector of 10 million double values. Our optimization nearly slashed the runtimes to half the original.
 
-The code is available [here](https://github.com/nvnmo/cpp-transformations).
+The code is available [here](https://github.com/nvnmo/cpp-transformations/tree/f0399d6dff12b107c7b7ddd1464dd862dd616f24).
 
 Also checkout part 2 of this post [here](https://medium.com/@nvnmo/selective-parallelization-using-c-template-metaprogramming-2fd85ca1d717).
