@@ -32,7 +32,7 @@ One thing that is most celebrated in the land of functional programming is , of 
 
 Coming back to the reason why I got interested in the first place. The library seemed to work fine and it was all generic code but appeared to slow down with large input sizes. The bottleneck was found to be a serial for-loop which is central.
 
-This was [the point](https://github.com/nvnmo/cpp-transformations/tree/53714dd397b62c25b1ac9961562beb2a59154425) in the commit history where I started.
+This was [the point](https://github.com/navin-mohan/cpp-transformations/tree/53714dd397b62c25b1ac9961562beb2a59154425) in the commit history where I started.
 
 But as we have seen in the previous section, if the functions are pure then we don't have to apply them in a serial order. Which means we are free to utilze the hardware parallelism while applying those functions.
 
@@ -249,6 +249,6 @@ Filter: 55ms
 
 The tests were performed on my dual core machine with a vector of 10 million double values. Our optimization nearly slashed the runtimes to half the original.
 
-The code is available [here](https://github.com/nvnmo/cpp-transformations/tree/f0399d6dff12b107c7b7ddd1464dd862dd616f24).
+The code is available [here](https://github.com/navin-mohan/cpp-transformations/tree/f0399d6dff12b107c7b7ddd1464dd862dd616f24).
 
-Also checkout part 2 of this post [here](https://medium.com/@nvnmo/selective-parallelization-using-c-template-metaprogramming-2fd85ca1d717).
+Also checkout part 2 of this post [here](https://medium.com/@navinmohan/selective-parallelization-using-c-template-metaprogramming-2fd85ca1d717).
