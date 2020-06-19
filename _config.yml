@@ -1,4 +1,4 @@
-remote_theme: "nvnmo/lumen"
+remote_theme: "navin-mohan/lumen"
 
 # Site Settings
 locale                   : "en-US"
@@ -11,7 +11,7 @@ title                    : "Navin Mohan"
 title_separator          : "-"
 name                     : "Navin Mohan"
 description              : "Portfolio and blog"
-url                      : https://nvnmo.github.io 
+url                      : https://navinmohan.com 
 baseurl                  : # the subpath of your site, e.g. "/blog"
 
 words_per_minute         : 200
@@ -22,7 +22,7 @@ date_format              : "%b %-d, %Y"
 author: 
   name                   : "Navin Mohan"
   avatar                 : "https://avatars3.githubusercontent.com/u/11776036?s=460&v=4"
-  bio                    : "Computer Science Student, C++ and Python Developer, Interested in Computer Networks and Systems Programming."
+  bio                    : ""
 
 plugins:
   - jekyll-feed
@@ -63,21 +63,21 @@ disqus_shortname: nvnmo-blog
 google_analytics: "UA-77683228-2"
 
 # Social icons
-github_username: nvnmo
+github_username: navin-mohan
 reddit_username:
 bitbucket_username:
 stackoverflow_id: 3432394
-twitter_username: nvnmo
+twitter_username: nmohan121
 skype_username:
-steam_nickname: nvnmo
+steam_nickname:
 google_plus_id:
-linkedin_username: nvnmo
+linkedin_username: navin-mohan
 angellist_username:
-medium_id: nvnmo
+medium_id: navinmohan
 bitcoin_url:
 paypal_url:
 flattr_button:
-telegram_username: nvnmo
+telegram_username:
 vk_id:
 
 
