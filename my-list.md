@@ -14,13 +14,16 @@ If you find any book titles (except reference books) that are not crossed off, i
 {:toc}
 
 ## Books
+
 ### Personal Development
 * [~~Atomic Habits by James Clear~~](https://amzn.to/2PDnM53)
 * [A Mind for Numbers by Barbara Oakley](https://amzn.to/3gJ2wXB)
+
 ### Programming
 * [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf) written by [Antti Laaksonen](https://www.cs.helsinki.fi/u/ahslaaks/).
 
 
 ## Articles and Notes
+
 ### Computer Science
 * [Heap Sort Analysis](http://www.cs.umd.edu/~meesh/351/mount/lectures/lect14-heapsort-analysis-part.pdf)
