@@ -13,6 +13,7 @@ name                     : "Navin Mohan"
 description              : "Portfolio and blog"
 url                      : https://navinmohan.com 
 baseurl                  : # the subpath of your site, e.g. "/blog"
+markdown.                : kramdown
 
 words_per_minute         : 200
 
