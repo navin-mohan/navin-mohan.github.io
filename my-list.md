@@ -7,6 +7,8 @@ layout: page
 Hi There! This is a space where I keep a list of things that I found useful. It serves as a reference for the future me. And for anyone who stumbled up on this page, it could be either trash or treasure depending on who you are. Hope you'll discover something new.
 
 ## Table of Contents
+{:.no_toc}
+1. table of contents placeholder list
 {:toc}
 
 ## Data Structures and Algorithms
