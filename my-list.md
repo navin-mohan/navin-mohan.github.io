@@ -22,5 +22,5 @@ If you find any book titles (except reference books) that are not crossed off, i
 
 
 ## Articles and Notes
-## Computer Science
+### Computer Science
 * [Heap Sort Analysis](http://www.cs.umd.edu/~meesh/351/mount/lectures/lect14-heapsort-analysis-part.pdf)
