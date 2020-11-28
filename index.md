@@ -1,7 +1,7 @@
 ---
 layout: page
+title: "Hello!"
 ---
-## Hello!
 I'm **Navin Mohan**. Thanks for stopping by! I'm a software engineer working in the area of media streaming. 
 
 
