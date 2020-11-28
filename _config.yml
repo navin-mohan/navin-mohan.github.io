@@ -1,124 +1,27 @@
-remote_theme: "navin-mohan/lumen"
+title: Navin Mohan
+email: myfullname81@gmail.com
+description: >- 
+  Navin's personal website and blog.
+baseurl: "" 
+url: "https://navinmohan.com" 
+twitter_username: navin_mohan_
+github_username:  navin-mohan
+linkedin_username: navin-mohan
 
-# Site Settings
-locale                   : "en-US"
-title                    : "Navin Mohan"
+header_pages:
+  - blog-home.md
+  - my-list.md
 
-
-
-
-
-title_separator          : "-"
-name                     : "Navin Mohan"
-description              : "Portfolio and blog"
-url                      : https://navinmohan.com 
-baseurl                  : # the subpath of your site, e.g. "/blog"
-markdown.                : kramdown
-
-words_per_minute         : 200
-
-paginate                 : 5
-paginate_path            : "blog/:num/"
-date_format              : "%b %-d, %Y"
-author: 
-  name                   : "Navin Mohan"
-  avatar                 : "https://avatars3.githubusercontent.com/u/11776036?s=460&v=4"
-  bio                    : ""
-
+# Build settings
+theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-paginate
-  - jemoji
-  - jekyll-seo-tag
-  - jekyll-remote-theme
-  - jekyll-sitemap
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-
-
-# Post sharing icons
-show_sharing_icons: true
-# Change to 'true' to enable individual icons
-share_facebook: true
-share_twitter: true
-share_googleplus: false
-share_linkedin: true
-share_digg: false
-share_tumblr: false
-share_reddit: true
-share_stumbleupon: false
-share_hackernews: false
-
-animated:             true
-show_related_posts:   true
-show_social_icons:    true
-
-
-enable_mathjax: true
-enable_anchorjs: true
-
-disqus_shortname: nvnmo-blog
-google_analytics: "UA-77683228-2"
-
-# Social icons
-github_username: navin-mohan
-reddit_username:
-bitbucket_username:
-stackoverflow_id: 3432394
-twitter_username: navin_mohan_
-skype_username:
-steam_nickname:
-google_plus_id:
-linkedin_username: navin-mohan
-angellist_username:
-medium_id: navinmohan
-bitcoin_url:
-paypal_url:
-flattr_button:
-telegram_username:
-vk_id:
-
-
-# Header nav
-header_pages:
-  - title: About
-    url: /about
-  - title: Blog
-    url: /blog
-  - title: My List
-    url: /my-list
-
-# Collection
-collections:
-  projects:
-    output: true
-    permalink: /portfolio/:title/
-
-# Defaults
 defaults:
   # _posts
   - scope:
       path: ""
       type: posts
     values:
-      layout: blog-post
-      basetype: blog
+      layout: post
       permalink: /blog/:year/:month/:day/:title
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: page
-      basetype: blog
-
-    # _projects
-  - scope:
-      path: ""
-      type: projects
-    values:
-      layout: page
-      basetype: blog

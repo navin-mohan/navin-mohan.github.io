@@ -307,4 +307,4 @@ int main(){
 
 You could use it with pretty much any built-in or user-defined datatype. And by no means, this is the best possible implementation out there. This is just something I came up with when I had a requirement. If you know a better way of implementing it, feel free to let me know in the comments. 
 
-Thank you for reading! :smile:
+Thank you for reading! 😀
