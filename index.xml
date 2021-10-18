@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Navin Mohan</title>
-    <link>https://navin-mohan.github.io/</link>
+    <link>https://navinmohan.com/</link>
     <description>Recent content on Navin Mohan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 19 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://navin-mohan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://navinmohan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact</title>
-      <link>https://navin-mohan.github.io/contact/</link>
+      <link>https://navinmohan.com/contact/</link>
       <pubDate>Sun, 17 Oct 2021 23:19:17 +0530</pubDate>
       
-      <guid>https://navin-mohan.github.io/contact/</guid>
+      <guid>https://navinmohan.com/contact/</guid>
       <description>#fs-frm input, #fs-frm select, #fs-frm textarea, #fs-frm fieldset, #fs-frm optgroup, #fs-frm label, #fs-frm #card-element:disabled { font-family: inherit; font-size: 100%; color: inherit; border: none; border-radius: 0; display: block; width: 100%; padding: 0; margin: 0; -webkit-appearance: none; -moz-appearance: none; } #fs-frm label, #fs-frm legend, #fs-frm ::placeholder { font-size: .825rem; margin-bottom: .5rem; padding-top: .2rem; display: flex; align-items: baseline; } #fs-frm input, #fs-frm select, #fs-frm textarea, #fs-frm #card-element { border: 1px solid rgba(0,0,0,0.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://navin-mohan.github.io/about/</link>
+      <link>https://navinmohan.com/about/</link>
       <pubDate>Sun, 17 Oct 2021 23:17:38 +0530</pubDate>
       
-      <guid>https://navin-mohan.github.io/about/</guid>
+      <guid>https://navinmohan.com/about/</guid>
       <description>Hello! 👋🏼 I&amp;rsquo;m Navin. I&amp;rsquo;m a Software Engineer 👨🏽‍💻.
 What I&amp;rsquo;m Working On  💻 I&amp;rsquo;m working full-time as a Software Engineer. ✍ I write about software development and programming on this website. ( 💌 subscribe if you find that interesting) 🔨 I contribute to open-source projects I use and love.  Other Interests  💡 I like to tinker with hobby electronics occasionally. ⌨️️ I love exploring programming languages and their design.</description>
     </item>
     
     <item>
       <title>Playing around with OpenMP and C&#43;&#43; - Parallelizing for-loops</title>
-      <link>https://navin-mohan.github.io/openmp-parallel-for-cpp/</link>
+      <link>https://navinmohan.com/openmp-parallel-for-cpp/</link>
       <pubDate>Fri, 19 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://navin-mohan.github.io/openmp-parallel-for-cpp/</guid>
+      <guid>https://navinmohan.com/openmp-parallel-for-cpp/</guid>
       <description>Yesterday, I came across an interesting repository on my GitHub feed. It is a simple and functional header-only C++ library that lets you apply transformations like map, reduce and filter to standard C++ containers.
 Well, yes I&amp;rsquo;m aware of the fact that it is possible to perform all three transformations using just STL.
  Map - std::transform Filter - std::copy_if Reduce - std::accumulate  This stackoverflow answer explains them in detail.</description>
@@ -38,10 +38,10 @@ Well, yes I&amp;rsquo;m aware of the fact that it is possible to perform all thr
     
     <item>
       <title>Dealing with endianness in C&#43;&#43;</title>
-      <link>https://navin-mohan.github.io/ealing-with-endianness-in-c/</link>
+      <link>https://navinmohan.com/ealing-with-endianness-in-c/</link>
       <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://navin-mohan.github.io/ealing-with-endianness-in-c/</guid>
+      <guid>https://navinmohan.com/ealing-with-endianness-in-c/</guid>
       <description>If you have ever dealt with binary data, then the chances are that you must have come across the term endianness at least once.
 Let&amp;rsquo;s take a deeper dive and see how you can keep your bytes in order.
 If you&amp;rsquo;re here for the code, then skip ahead to methods.
