@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://navin-mohan.github.io/sitemap.xml

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Navin Mohan</title>
+    <link>https://navin-mohan.github.io/posts/</link>
+    <description>Recent content in Posts on Navin Mohan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 19 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://navin-mohan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Playing around with OpenMP and C&#43;&#43; - Parallelizing for-loops</title>
+      <link>https://navin-mohan.github.io/openmp-parallel-for-cpp/</link>
+      <pubDate>Fri, 19 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://navin-mohan.github.io/openmp-parallel-for-cpp/</guid>
+      <description>Yesterday, I came across an interesting repository on my GitHub feed. It is a simple and functional header-only C++ library that lets you apply transformations like map, reduce and filter to standard C++ containers.
+Well, yes I&amp;rsquo;m aware of the fact that it is possible to perform all three transformations using just STL.
+ Map - std::transform Filter - std::copy_if Reduce - std::accumulate  This stackoverflow answer explains them in detail.</description>
+    </item>
+    
+    <item>
+      <title>Dealing with endianness in C&#43;&#43;</title>
+      <link>https://navin-mohan.github.io/ealing-with-endianness-in-c/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://navin-mohan.github.io/ealing-with-endianness-in-c/</guid>
+      <description>If you have ever dealt with binary data, then the chances are that you must have come across the term endianness at least once.
+Let&amp;rsquo;s take a deeper dive and see how you can keep your bytes in order.
+If you&amp;rsquo;re here for the code, then skip ahead to methods.
+What is endianness? Endianness is basically the sequential order in which bytes are organized in a word. Generally, the computer memory is byte addressable therefore it doesn&amp;rsquo;t care how the constituent bytes are organized.</description>
+    </item>
+    
+  </channel>
+</rss>
