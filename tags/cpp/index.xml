@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cpp on Navin Mohan</title>
+    <link>https://navinmohan.com/tags/cpp/</link>
+    <description>Recent content in cpp on Navin Mohan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 07 Jun 2022 00:26:16 +0530</lastBuildDate><atom:link href="https://navinmohan.com/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Immutability — Raw vs Smart Pointers</title>
+      <link>https://navinmohan.com/blog/2022/06/immutability-raw-vs-smart-pointers/</link>
+      <pubDate>Tue, 07 Jun 2022 00:26:16 +0530</pubDate>
+      
+      <guid>https://navinmohan.com/blog/2022/06/immutability-raw-vs-smart-pointers/</guid>
+      <description>A note on immutability of raw and smart pointers in C++</description>
+    </item>
+    
+  </channel>
+</rss>

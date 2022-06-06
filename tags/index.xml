@@ -4,6 +4,16 @@
     <title>Tags on Navin Mohan</title>
     <link>https://navinmohan.com/tags/</link>
     <description>Recent content in Tags on Navin Mohan</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://navinmohan.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 07 Jun 2022 00:26:16 +0530</lastBuildDate><atom:link href="https://navinmohan.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cpp</title>
+      <link>https://navinmohan.com/tags/cpp/</link>
+      <pubDate>Tue, 07 Jun 2022 00:26:16 +0530</pubDate>
+      
+      <guid>https://navinmohan.com/tags/cpp/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

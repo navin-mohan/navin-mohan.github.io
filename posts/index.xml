@@ -5,7 +5,16 @@
     <link>https://navinmohan.com/posts/</link>
     <description>Recent content in Posts on Navin Mohan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 19 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://navinmohan.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jun 2022 00:26:16 +0530</lastBuildDate><atom:link href="https://navinmohan.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Immutability — Raw vs Smart Pointers</title>
+      <link>https://navinmohan.com/blog/2022/06/immutability-raw-vs-smart-pointers/</link>
+      <pubDate>Tue, 07 Jun 2022 00:26:16 +0530</pubDate>
+      
+      <guid>https://navinmohan.com/blog/2022/06/immutability-raw-vs-smart-pointers/</guid>
+      <description>A note on immutability of raw and smart pointers in C++</description>
+    </item>
+    
     <item>
       <title>Playing around with OpenMP and C&#43;&#43; - Parallelizing for-loops</title>
       <link>https://navinmohan.com/openmp-parallel-for-cpp/</link>
@@ -14,7 +23,8 @@
       <guid>https://navinmohan.com/openmp-parallel-for-cpp/</guid>
       <description>Yesterday, I came across an interesting repository on my GitHub feed. It is a simple and functional header-only C++ library that lets you apply transformations like map, reduce and filter to standard C++ containers.
 Well, yes I&amp;rsquo;m aware of the fact that it is possible to perform all three transformations using just STL.
- Map - std::transform Filter - std::copy_if Reduce - std::accumulate  This stackoverflow answer explains them in detail.</description>
+Map - std::transform Filter - std::copy_if Reduce - std::accumulate This stackoverflow answer explains them in detail.
+But that is not why I was interested.</description>
     </item>
     
     <item>
