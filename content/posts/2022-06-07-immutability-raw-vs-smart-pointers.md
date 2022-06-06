@@ -91,6 +91,10 @@ const std::unique_ptr<std::string> smart_q = nullptr;
 ### Immutable Pointer to an Immutable Object
 Similar to the raw pointer case, we can make the `std::unique_ptr`  and its template argument  `const`  to declare an immutable pointer to an immutable object.
 
+```cpp
+const std::unique_ptr<const std::string> smart_s = nullptr;
+```
+
 Hope you learned something new about pointers today! 😄
 
 
