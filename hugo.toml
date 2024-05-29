@@ -1,7 +1,7 @@
 baseURL = 'https://navinmohan.com/'
 languageCode = 'en-us'
 title = 'Navin Mohan'
-theme = 'Typo'
+theme = 'typo'
 
 [taxonomies]
 tag = 'tags'
