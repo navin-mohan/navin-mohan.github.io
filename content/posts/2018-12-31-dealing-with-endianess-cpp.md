@@ -3,6 +3,7 @@ title: "Dealing with endianness in C++"
 date: 2018-12-31
 mathjax: false
 url: ealing-with-endianness-in-c/
+summary: "Handling binary data considering endianness."
 ---
 
 If you have ever dealt with binary data, then the chances are that you must have come across the term endianness at least once.

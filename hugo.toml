@@ -1,3 +1,84 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://navinmohan.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Navin Mohan'
+theme = 'Typo'
+
+[taxonomies]
+tag = 'tags'
+
+# Google analytics code
+googleAnalytics = "G-3MBG0NNR14"
+
+[params]
+# Meta description
+description = "Personal Blog"
+
+# Appearance settings
+theme = 'auto'
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hi!'
+homeIntroContent = """
+I'm Navin, a software engineer. I write about programming, technology, and life.
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = 'January 2, 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/navin-mohan/"
+
+[[params.social]]
+name = "medium"
+url = "https://medium.com/@navinmohan"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/navin-mohan"
+
+[[params.social]]
+name = "instagram"
+url = "https://www.instagram.com/navin.mohan_"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+[[params.menu]]
+name = "contact"
+url = "/contact"
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Giscus comments
+# [params.giscus]
+# enable = false
+# repo = "user/repo"
+# repoid = "repoId"
+# category = "General"
+# categoryid = "categoryId"
+# mapping = "pathname"
+# theme = "preferred_color_scheme"

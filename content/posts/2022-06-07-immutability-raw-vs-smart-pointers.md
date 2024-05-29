@@ -2,7 +2,7 @@
 title: "Immutability — Raw vs Smart Pointers"
 date: 2022-06-07T00:26:16+05:30
 tags: [cpp]
-summary: "A note on immutability of raw and smart pointers in C++"
+summary: "A note on immutability of raw and smart pointers in C++."
 ---
 Let’s start with some (raw) pointer basics.
 

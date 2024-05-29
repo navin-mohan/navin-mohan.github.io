@@ -1,7 +1,7 @@
 ---
 title: "Playing around with OpenMP and C++ - Parallelizing for-loops"
 date: 2019-04-19
-excerpt: "Optimizing a toy C++ library using OpenMP"
+summary: "Optimizing a toy C++ library using OpenMP."
 url: /openmp-parallel-for-cpp/
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "About"
-date: 2021-10-17T23:17:38+05:30
-hidemeta: true
 ---
 {{< image src="/img/about/profile.png" alt="me" >}}
 ## Hello! 👋🏼
