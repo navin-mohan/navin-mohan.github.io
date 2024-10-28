@@ -20,6 +20,8 @@ theme = 'auto'
 homeIntroTitle = 'Hi!'
 homeIntroContent = """
 I'm Navin, a software engineer. I write about programming, technology, and life.
+
+Services: https://topmate.io/navinmohan
 """
 
 # Collection to display on home
