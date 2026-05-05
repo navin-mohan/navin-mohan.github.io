@@ -245,7 +245,7 @@ struct Word{
     };
 
     uint8_t& operator[](int i){
-        if(from == to){
+        if constexpr (from == to){ // EDIT (May 2026): Use if constexpr from C++17 to avoid runtime branching. 
             return byte[i];
         }else{
             /* flip the order only if the source and destination has 
