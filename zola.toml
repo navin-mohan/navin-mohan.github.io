@@ -11,10 +11,25 @@ theme = "terminus"
 
 title = "Navin Mohan"
 
+author = "Navin Mohan"
+
+
+
 [markdown]
 
 [markdown.highlighting]
 theme = "catppuccin-mocha"
 
 [extra]
-# Put all your custom variables here
+
+main_menu = [
+    { name = "blog", url = "blog", trailing_slash = true },
+    { name = "projects", url = "projects", trailing_slash = true },
+]
+
+socials = [
+    { name = "github", url = "https://github.com/navin-mohan" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/navin-mohan/" },
+    # { name = "medium", url = "https://medium.com/@navinmohan" },
+    # { name = "substack", url = "https://navinmohan.substack.com/" },
+]
