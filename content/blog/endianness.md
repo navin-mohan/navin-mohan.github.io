@@ -1,14 +1,16 @@
----
-title: "Dealing with endianness in C++"
-date: 2018-12-31
-path: ealing-with-endianness-in-c/
-summary: "Handling binary data considering endianness."
----
++++
+title = "Dealing with endianness in C++"
+date = 2018-12-31
+path = "ealing-with-endianness-in-c/"
+
+[extra]
+summary = "Handling binary data considering endianness."
++++
 
 If you have ever dealt with binary data, then the chances are that you must have come across the term endianness at least once.
 
 Let's take a deeper dive and see how you can keep your bytes in order.
-<!-- more -->
+
 If you're here for the code, then skip ahead to [methods](#methods-for-handling-endianness-in-c).
 
 ## What is endianness?
