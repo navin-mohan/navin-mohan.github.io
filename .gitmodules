@@ -1,3 +1,3 @@
 [submodule "themes/terminus"]
 	path = themes/terminus
-	url = https://github.com/ebkalderon/terminus.git
+	url = git@github.com:navin-mohan/terminus.git
