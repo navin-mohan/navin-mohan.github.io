@@ -35,11 +35,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
       - name: Install Zola
         run: |
           set -eux
@@ -53,10 +48,16 @@ jobs:
           sudo mv zola /usr/local/bin/
 
           zola --version
+          
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Build site
         run: |
-          zola build       
+          zola build
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
